@@ -88,7 +88,7 @@ def hangman():
         else:
             print("Enter a valid letter!")
     
-    print(f"Congrats!! You have guessed the word {word} correctly!")
+        print(f"Congrats!! You have guessed the word {word} correctly!")
 
 while(True):
     print("Welcome to HANGMAN :)")
@@ -97,6 +97,4 @@ while(True):
     if(reply.upper() == 'N'):
         print("Thank you for playing! Good bye")
         break
-    else:
-        continue
             
